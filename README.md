@@ -1,7 +1,1 @@
 # zombiedr82.github.io
-<h1>                           My top Favorite Video Games </h1>
-<h2> Red Dead Redemption 2 </h2>
-<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/f8a6e020-f7e6-432f-9582-8e948a480cc0" </img>
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/d0f4ab5b-dc14-4dfb-bfaf-06195c628edb" </img>
-
-
