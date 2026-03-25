@@ -4,4 +4,37 @@
 body {
     background-color: black;
 }
-div {width: 100px;}
+div
+ #one{
+    width: 200px;
+    height: 200px;
+    background-color: green
+
+}
+body 
+#one { margin-top: 1%;
+margin-left: auto;
+margin-right: auto;}
+body 
+#two { margin-top: 0.5%;
+margin-left: auto;
+margin-right: auto; }
+
+body 
+#three { margin-top: 0.5%;
+margin-left: auto;
+margin-right: auto; }
+
+
+div
+#two{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+div
+#three{
+    width:200px;
+    height: 200px;
+    background-color: red;
+}
