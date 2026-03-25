@@ -6,8 +6,8 @@ body {
 }
 div
  #one{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: green
 
 }
@@ -28,13 +28,13 @@ margin-right: auto; }
 
 div
 #two{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: yellow;
 }
 div
 #three{
-    width:200px;
-    height: 200px;
+    width:250px;
+    height: 250px;
     background-color: red;
 }
