@@ -1,0 +1,50 @@
+#div1 {
+    background-color: pink;
+    border-style: solid;
+    border-width: 10px;
+    border-color: blue;
+}
+#div2 {
+    background-color: black;
+    border-style: solid;
+    border-width: 10px;
+    border-color: green
+}
+#The {
+   color: red;
+}
+#quick {
+    color: orange;
+ 
+}
+#brown {
+    color: yellow;
+}
+#fox {
+    color: green;
+}
+#jumps {
+    color: blue;
+}
+div
+#over {
+    color: purple;
+}
+
+#th {
+    color:rgb(241, 123, 241);
+}
+
+#lazy {
+    color: white;
+}
+#dog {
+    color: grey;
+}
+* {
+    display:inline;
+    font-size: 80px;
+    margin-top: 17px;
+    
+   
+}
