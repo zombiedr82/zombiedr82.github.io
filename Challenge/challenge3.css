@@ -1,3 +1,42 @@
-#pink {
-    
+p {display:inline-block
 }
+#pink {
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+    margin-top: 300px;
+    
+
+}
+#teal {
+     height: 167px;
+    width: 350px;
+    background-color: aquamarine;
+}
+#blue {
+     height: 167px;
+    width: 350px;
+    background-color: rgb(127, 127, 255);
+}
+#purple {
+     height: 167px;
+    width: 350px;
+    background-color:rgb(217, 160, 247);
+}
+#yellow {
+     height: 500px;
+    width: 500px;
+    background-color: rgb(242, 242, 150);
+    margin-left: 830 ;
+    margin-top: -518px;
+   
+}
+#teal,#blue,#purple {
+    display:  block;
+    margin-left: 500px;
+    margin-top: -518px;
+}
+#blue,#purple {
+    margin-top: -16px;
+}
+
