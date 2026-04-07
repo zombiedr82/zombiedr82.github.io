@@ -1,15 +1,15 @@
 
 #red {
-    width: 200px;
+    width: 350px;
     height: 142px;
     background-color: red;
-   
 }
+
 #yellow { 
      width: 200px;
     height: 142px;
     background-color: yellow;
-    display: inline-block;
+  
 }
 #blue {
      width: 200px;
@@ -47,9 +47,10 @@
     background-color: pink;
 }
 #pink {
-     width: 200px;
+     width: auto;
     height: 142px;
     background-color: pink;
+    
 }
 #grey {
      width: 200px;
@@ -86,6 +87,7 @@
     height: 142px;
     background-color: red;
 }
-#d1 {
-    display: inline-block;
+#red,#pink,#yellow,#blue,#lightblue,#lightgreen,#lilgreen,#green,#gren,#yeller,#re2,#purple,#lightpurple,#grey,#piky,#grey2,#lilblue,#lilblue {
+    margin-top: -26px;
+    margin-left: -10px;
 }
