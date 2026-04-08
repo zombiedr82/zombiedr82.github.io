@@ -1,93 +1,121 @@
-
+body { 
+    margin-top: 0%;
+}
 #red {
-    width: 350px;
-    height: 142px;
+    width: 10%;
+    height: 147px;
     background-color: red;
+    margin-top: 0%;
 }
 
 #yellow { 
-     width: 200px;
-    height: 142px;
+     width: 20%;
+    height: 147px;
     background-color: yellow;
-  
+   margin-top: 0%;
 }
 #blue {
-     width: 200px;
-    height: 142px;
+     width: 30%;
+    height: 147px;
     background-color: blue;
+     margin-top: 0%;
 }
 #green {
-     width: 200px;
-    height: 142px;
+     width: 30%;
+    height: 147px;
     background-color: green;
+     margin-top: 0%;
 }
 #purple {
-     width: 200px;
-    height: 142px;
+     width: 50%;
+    height: 147px;
     background-color: purple;
+     margin-top: 0%;
 }
 #lilgreen {
-     width: 200px;
-    height: 142px;
+     width: 60%;
+    height: 147px;
     background-color: lightgreen;
+     margin-top: 0%;
 }
 #lilblue {
-     width: 200px;
-    height: 142px;
+     width: 70%;
+    height: 147px;
     background-color: lightblue;
+     margin-top: 0%;
+}
+#blue2 {
+    width:30%;
+    height: 147px;
+    background-color: blue;
+     margin-top: 0%;
 }
 #grey2 {
-     width: 200px;
-    height: 142px;
+     width: 80%;
+    height: 147px;
     background-color: lightgray;
+     margin-top: 0%;
 }
 #piky {
-     width: 200px;
-    height: 142px;
+     width: 90%;
+    height: 147px;
     background-color: pink;
+     margin-top: 0%;
 }
 #pink {
-     width: auto;
-    height: 142px;
+     width: 90%;
+    height: 147px;
     background-color: pink;
-    
+     margin-top: 0%;
 }
-#grey {
-     width: 200px;
-    height: 142px;
+#grey1 {
+   width: 80%;
+    height: 147px;
     background-color: lightgray;
+     margin-top: 0%;
+   
 }
 #lightblue {
-     width: 200px;
-    height: 142px;
+     width: 70%;
+    height: 147px;
     background-color: lightblue;
+     margin-top: 0%;
 }
 #lightgreen {
-     width: 200px;
-    height: 142px;
+     width: 70%;
+    height: 147px;
     background-color: lightgreen;
+     margin-top: 0%;
 }
 #lightpurple {
-     width: 200px;
-    height: 142px;
+     width: 50%;
+    height: 147px;
     background-color: plum;
+     margin-top: 0%;
 }
 #gren {
-     width: 200px;
-    height: 142px;
+     width: 40%;
+    height: 147px;
     background-color: green;
+     margin-top: 0%;
 }
 #yeller {
-     width: 200px;
-    height: 142px;
+     width: 20%;
+    height: 147px;
     background-color: yellow;
+     margin-top: 0%;
 }
 #re2 {
-     width: 200px;
-    height: 142px;
+     width: 10%;
+    height: 147px;
     background-color: red;
+     margin-top: 0%;
 }
-#red,#pink,#yellow,#blue,#lightblue,#lightgreen,#lilgreen,#green,#gren,#yeller,#re2,#purple,#lightpurple,#grey,#piky,#grey2,#lilblue,#lilblue {
+#red,#pink,#yellow,#grey1,#lightblue,#blue,#blue2,#grey1,#lightgreen,#lilgreen,#green,#gren,#yeller,#re2,#purple,#lightpurple,#piky,#grey2,#lilblue,#lilblue {
     margin-top: -26px;
     margin-left: -10px;
+}
+
+p {
+    display: inline-block;
 }
