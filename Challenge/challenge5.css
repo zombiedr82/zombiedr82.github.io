@@ -53,25 +53,25 @@ body {
 #grey2 {
      width: 80%;
     height: 147px;
-    background-color: lightgray;
+    background-color: rgb(240, 241, 217);
      margin-top: 0%;
 }
 #piky {
      width: 90%;
     height: 147px;
-    background-color: pink;
+    background-color:rgb(238, 134, 134);
      margin-top: 0%;
 }
 #pink {
      width: 90%;
     height: 147px;
-    background-color: pink;
+    background-color: rgb(238, 134, 134);
      margin-top: 0%;
 }
 #grey1 {
    width: 80%;
     height: 147px;
-    background-color: lightgray;
+    background-color: rgb(240, 241, 217);
      margin-top: 0%;
    
 }
