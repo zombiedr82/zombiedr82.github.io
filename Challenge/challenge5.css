@@ -21,10 +21,10 @@ body {
      margin-top: 0%;
 }
 #green {
-     width: 30%;
+     width: 40%;
     height: 147px;
     background-color: green;
-     margin-top: 0%;
+     
 }
 #purple {
      width: 50%;
@@ -41,7 +41,7 @@ body {
 #lilblue {
      width: 70%;
     height: 147px;
-    background-color: lightblue;
+    background-color: rgb(130, 208, 233);
      margin-top: 0%;
 }
 #blue2 {
@@ -78,11 +78,11 @@ body {
 #lightblue {
      width: 70%;
     height: 147px;
-    background-color: lightblue;
+    background-color: rgb(130, 208, 233);
      margin-top: 0%;
 }
 #lightgreen {
-     width: 70%;
+     width: 60%;
     height: 147px;
     background-color: lightgreen;
      margin-top: 0%;
