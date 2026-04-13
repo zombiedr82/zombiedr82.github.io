@@ -1,9 +1,33 @@
-div{
-    display:inline-block;
-}
+
 #title {
+    font-size: 60pt;
     font-weight:bold;
     font-style: italic;
-    margin-left: auto;
-    text-
+    font-variant-caps: titling-caps;
+    text-align: center;
+    font-family: "Monaco",sans-serif;
+
+}
+
+h3 {
+    font-style: italic;
+    padding-left: 15px;
+}
+div {
+    background-color: lightgray;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    margin-top: -50px;
+}
+#leftColumn, #rightColumn {
+    width: 25%;
+}
+#centerColumn {
+    width: 40%;
+}
+p {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
 }
