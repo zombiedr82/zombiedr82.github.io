@@ -1,0 +1,48 @@
+p {
+    display:inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+}   
+#topbar {
+    height:100px;
+    width: 2559px;
+    background-color:lightgrey;
+    margin-top: -8px;
+    margin-left: -7px;
+    text-align: center;
+}
+img {
+    display: inline;
+    height: 40px;
+    margin-left: 40px;
+    align-content: center;
+   
+}
+#devicesbar-title {
+    height: 250px;
+    width: 2559px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -20px;
+    margin-left: -7px;
+    text-align: center;
+}
+#shopiphone {
+    height: 200px;
+    width: auto;
+    background-color: lightgray;
+    margin-top: -30px;
+    margin-left: -7px;
+    text-align: center;
+    text-size: -3px;
+    font-family:sans-serif;
+}
+
+#bottomhalf {
+    height:770px;
+    width: 2559px;
+    background-color: black;
+    margin-top: -30px;
+    margin-left: -7px;
+}
