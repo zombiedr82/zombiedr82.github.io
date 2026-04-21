@@ -17,13 +17,16 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-size: 18px;
 }
+.phot {
+    height: 20px;
+}
 #pro15 {
-    margin-left: 420px;
-    margin-bottom: -100px;
+    margin-left: 390px;
+    margin-bottom: -150px;
 }
 .pro15 {
     margin-top: -120px;
-    margin-left: 75px;
+    margin-left: 80px;
 }
 .shop {
     text-align: center;
