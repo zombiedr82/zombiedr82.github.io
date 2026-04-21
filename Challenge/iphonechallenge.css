@@ -12,28 +12,20 @@ p {
 }
 .devices { 
     text-align: center;
-    margin-bottom: 35px;
-    margin: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 38px;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
-.phot {
-    margin-left: 58px;
-    height: 70px;
-}
-.photo {
-    height: 70px;
-    margin-left: 70px;
-
-}
 #pro15 {
-    margin-left: 0px;
-    margin-bottom: -150px;
+    margin-top: -60px;
+    text-align: center;
+    margin-left: 170px;
 }
-.pro15 {
-    margin-top: -120px;
-    margin-left: 80px;
+.next {
+    margin-top: -150px;
+    margin-left: -40px;
 }
+
 .shop {
     text-align: center;
     margin-top: -80px;
@@ -62,7 +54,7 @@ p {
     margin-left: 60px;
 }
 #topbar {
-    height:85px;
+    height:80px;
     width: 2559px;
     background-color:lightgrey;
     margin-top: -8px;
@@ -74,15 +66,13 @@ img {
 }
 .photos {
      display: inline-block;
-    height: 40px;
     margin-left: 40px;
     height: 65px;
-    margin: 45px;
-    margin-top: 10px;
+    margin: 51px;
 }
 
 #devicesbar-title {
-    height: 50px;
+    height: -500px;
     width: 2559px;
     background-color: rgb(255, 255, 255);
     margin-top: -20px;
