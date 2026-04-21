@@ -18,10 +18,16 @@ p {
     font-size: 18px;
 }
 .phot {
-    height: 20px;
+    margin-left: 58px;
+    height: 70px;
+}
+.photo {
+    height: 70px;
+    margin-left: 70px;
+
 }
 #pro15 {
-    margin-left: 390px;
+    margin-left: 0px;
     margin-bottom: -150px;
 }
 .pro15 {
