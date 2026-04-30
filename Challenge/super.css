@@ -1,6 +1,7 @@
 body {
     background-color: rgb(36, 36, 37);
 }
+
 #topbar {
     background-color: rgb(46, 48, 56);
     width: auto;
@@ -8,6 +9,10 @@ body {
     margin-top: -8px;
     margin-left: -20px;
     margin-right: -20px;
+}
+p {
+    display: inline-block;
+    margin: 20px;
 }
 #image1 {
     height: 57px;
@@ -23,4 +28,18 @@ body {
     margin-left: auto;
     margin-right: 990px;
     display: block;
+    
+}
+.toptext {
+    color:white;
+    font-size: 22px;
+    font-family: monospace;
+    text-align: end;
+    max-width: 82%;
+    margin-top: -36px;
+}
+.firstrow {
+    margin: 30px;
+    text-align: center;
+    height: 330px;
 }
