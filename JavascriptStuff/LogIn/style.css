@@ -1,0 +1,28 @@
+body {
+    background: rgb(142, 54, 57);
+}
+p { 
+    color: white;
+    display: inline-block;
+}
+#main-container {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 40vh;
+}
+
+div {
+   
+    margin-left: 35%;
+}
+
+input {
+    border: 2px solid black;
+    display: inline-block
+}
+
+button {
+    background-color: black;
+    color: rgb(226, 115, 147);
+    margin-left: 35%;
+}

@@ -2,11 +2,17 @@
 <script src="scripts.js" defer></script>
 
 <body>
-    <p> Enter Username and Password </p>
-   <input id="username">
-   <br>
-   <input id="password">
-   <br>
-   <button>Submit</button>
-    <p id=access></p>
+
+<div id="username-container">
+    <p>username: </p>
+   <input id="username-entry">
+</div>
+
+<div id="password-container">
+    <p>password: </p>
+   <input type="password" id="password-entry">
+</div>
+    
+   <button id="submit-entry">Submit</button>
+    <p id=status-text> Access denied</p>
 </body>
