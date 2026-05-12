@@ -4,8 +4,6 @@ submit_button = document.getElementById("submit-button");
 status_text = document.getElementById("status-text");
 
 
-
-
 function checkCredentials(){
 
    if (username_entry.value == "admin" && password_entry.value == "admin"){
@@ -19,6 +17,7 @@ function checkCredentials(){
       }
 
    }
+
 submit_button.addEventListener("click", checkCredentials)
 
 if(document.getElementById("username").value == "zoombiedrink" && document.getElementById("password").value == "1221Chiron"){
