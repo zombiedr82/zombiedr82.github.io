@@ -56,35 +56,207 @@ function check_q1(){
    else if (q1_a4.checked == true){
       score_Ilya = score_Ilya + 1;
       score_Cliff = score_Cliff + 1;
-}
-function check_q2(){
-   if (q1_a1.checked ==true){
-      
    }
 }
-function check_q3(){
-   
+function check_q1(){
+
+   if (q2_a1.checked == true){
+      score_Ilya = score_Ilya + 1;
+      score_Cliff= score_Cliff + 1;
+   }
+   else if (q1_a2.checked == true){
+      score_Bood = score_Bood + 1;
+      score_Wyatt = score_Wyatt + 1;
+	   score_Dallas = score_Dallas+ 1;
+	   score_Yuna = score_Yuna + 1;
+	   score_Hayden = score_Hayden + 1;
+	   score_Cliff = score_Cliff + 1;
+	   score_Jackie = score_Jackie + 1;
+	   score_Svetlana = score_Svetlana + 1;
+	   score_Rose = score_Rose + 1;
+	   score_Alexie = score_Alexie + 1;
+   }
+   else if (q2_a3.checked == true){
+	   score_Shane = score_Shane + 1;
+	   score_Harris = score_Harris + 1;
+	   score_Troy = score_Troy + 1;
+	   score_Sasha = score_Sasha + 1;
+	   score_Scott = score_Scott + 1;
+	   score_Kip = score_Kip + 1;
+	   score_Luca = score_Luca +1;
+   }  
+   else if (q2_a4.checked == true){
+	score_Svetlana = score_Svetlana + 1;
+	score_Rose = score_Rose + 1;
+   }
+   else if (q2_a5.checked == true){
+	   score_Anya = score_Anya + 1;
+	   score_Chiron = score_Chiron + 1;
+	   score_Yuna = score_Yuna + 1;
+	   score_Shane = score_Shane + 1;	
+   }
 }
+
+function check_q3(){
+
+   If (q3_a1.checked == true){
+	   score_Ilya = score_Ilya + 1;
+	   score_Dallas = score_Dallas + 1;
+	   score_JJ = score_JJ + 1;
+	   score_Cliff = score_Cliff + 1;
+	   score_Alexie = score_Alexie + 1;
+   }
+   else if (q3_a2.checked == true){
+	   score_Shane = score_Shane + 1;
+	   score_Luca = score_Luca + 1;
+	   score_Anya = score_Anya + 1;
+      score_Chiron = score_Chiron + 1;
+      score_Jackie = score_Jackie + 1;
+      score_Svetlana = score_Svetlana + 1;
+      score_Rose = score_Rose + 1;
+      score_Harris = score_Harris + 1;
+      score_Hayden = score_Hayden + 1;	
+   }
+   else if (q3_a2.checked == true){
+	   score_Troy = score_Troy + 1;
+   }
+}
+
 function check_q4(){
    
+   If (q4_a1.checked == true){
+	   score_Ilya = score_Ilya + 1;
+	   score_Harris = score_Harris + 1;
+	   score_Troy = score_Troy + 1;
+	   score_Shane = score_Shane + 1;
+	   score_Chiron = score_Chiron + 1;
+	   score_Anya = score_Anya + 1;
+	   score_Yuna = score_Yuna + 1;
+	   score_JJ = score_JJ + 1;
+	   score_Cliff = score_Cliff + 1;
+	   score_Svetlana = score_Svetlana + 1;
+	   score_Hayden = score_Hayden + 1;
+	   score_Scott = score_Scott + 1;
+	   score_Bood = score_Bood + 1;
+	   score_Luca = score_Luca + 1;
+   }
+   else if (q4_a2.checked == true){
+	   score_Jackie = score_Jackie + 1;
+	   score_Shane = score_Shane + 1;
+      score_Kip = score_Kip + 1;
+      score_Yuna = score_Yuna + 1;
+      score_Svetlana = score_Svetlana + 1;
+      score_Rose = score_Rose + 1;
+      score_Luca = score_Luca + 1;
+   }
+   else if (q4_a2.checked == true){
+	   score_Alexie = score_Alexie + 1;
+	   score_Sasha = score_Sasha + 1;
+	   score_Dallas = score_Dallas + 1;
+   }
 }
 function check_q5(){
    
+   If (q5_a1.checked == true){
+	   score_Ilya = score_Ilya + 1;
+	   score_Shane = score_Shane + 1;
+	   score_Troy = score_Troy + 1;
+	   score_Bood = score_Bood + 1;
+	   score_Wyatt = score_Wyatt + 1;
+	   score_Dallas = score_Dallas + 1;
+	   score_Harris = score_Harris + 1;
+	   score_Yuna = score_Yuna + 1;
+	   score_Anya = score_Anya + 1;
+	   score_Chiron = score_Chiron+ 1;
+	   score_Luca = score_Luca + 1;
+	   score_svetlana = score_svetlana + 1;
+   }
+   else if (q5_a2.checked == true){
+	   score_ = score_ + 1;
+   }
+   else if (q5_a2.checked == true){
+	   score_Rose = score_Rose + 1;
+	   score_Harris = score_Harris + 1;
+	   score_Jackie = score_Jackie + 1;
+   }
+
+   else if (q5_a2.checked == true){
+	   score_ = score_ + 1;
+   }
 }
 function check_q6(){
    
+
 }
 function check_q7(){
    
+   If (q7_a1.checked == true){
+	   score_Ilya = score_Ilya + 1;
+	   score_Shane = score_Shane + 1;
+	   score_Hayden = score_Hayden + 1;
+	   score_Bood = score_Bood+ 1;
+	   score_Wyatt = score_Wyatt + 1;
+	   score_Chiron = score_Chiron + 1;
+	   score_Anya = score_Anya + 1;
+	   score_Jackie = score_Jackie + 1;
+   }
+
+   else if (q7_a2.checked == true){
+	   score_Dallas = score_Dallas + 1;
+	   score_Alexie = score_Alexie + 1; 
+   }
+   else if (q7_a2.checked == true){
+	   score_Harris = score_Harris + 1;
+      score_Troy = score_Troy + 1;
+      score_Harris = score_Harris + 1;
+   }
+   else if (q7_a5.checked == true){
+	   score_Kip = score_ Kip + 1;
+	   score_Scott = score_Scott + 1;
+   }
 }
 function check_q8(){
    
+   If (q8_a1.checked == true){
+      score_ = score_ + 1;
+   }
+   else if (q8_a2.checked == true){
+      score_ = score_ + 1;
+   }
+    else if (q8_a2.checked == true){
+      score_ = score_ + 1;
+   }
+    else if (q8_a2.checked == true){
+      score_ = score_ + 1;
+   }
 }
 function check_q9(){
    
+   If (q9_a1.checked == true){
+      score_ = score_ + 1;
+   }
+   else if (q9_a2.checked == true){
+      score_ = score_ + 1;
+   }
+    else if (q9_a2.checked == true){
+      score_ = score_ + 1;
+   }
+    else if (q9_a2.checked == true){
+      score_ = score_ + 1;
 }
 function check_q10(){
    
+   If (q10_a1.checked == true){
+      score_ = score_ + 1;
+   }
+   else if (q10_a2.checked == true){
+      score_ = score_ + 1;
+   }
+    else if (q10_a2.checked == true){
+      score_ = score_ + 1;
+   }
+    else if (q10_a2.checked == true){
+      score_ = score_ + 1;
 }
 function check_q11(){
    
@@ -97,4 +269,3 @@ function check_q13(){
 }
 
 submit_button.addEventListener("click", check_q1);
-
