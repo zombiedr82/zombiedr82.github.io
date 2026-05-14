@@ -27,8 +27,7 @@ var score_Rose = 0;
 var score_Sasha = 0;
 var score_Alexie = 0;
 var score_Troy = 0;
-
-
+var score_Luca = 0;
 
 
 
@@ -257,15 +256,81 @@ function check_q10(){
    }
     else if (q10_a2.checked == true){
       score_ = score_ + 1;
-}
-function check_q11(){
-   
-}
-function check_q12(){
-   
-}
-function check_q13(){
-   
-}
 
+      function calculate_result(){
+
+         let maxKey = "";
+         let maxValue = -Infinity;
+
+         for (const [key, value] of Object.entries(scores)) {
+            if (value > maxValue) {
+               maxValue = value;
+               maxKey = key;
+            }
+         }
+
+         if (maxKey == "score_Ilya"){
+            
+         }
+         if (maxKey == "score_Shane"){
+
+         }
+         if (maxKey == "score_Scott"){
+
+         }
+         if (maxKey == "score_Kip"){
+
+         }
+         if (maxKey == "score_Bood"){
+
+         }
+         if (maxKey == "score_Wyatt"){
+
+         }
+         if (maxKey == "score_Dallas"){
+
+         }
+         if (maxKey == "score_Harris"){
+
+         }
+         if (maxKey == "score_Chiron"){
+
+         }
+         if (maxKey == "score_Anya"){
+
+         }
+         if (maxKey == "score_Yuna"){
+
+         }
+         if (maxKey == "score_Hayden"){
+
+         }
+         if (maxKey == "score_JJ"){
+
+         }
+         if (maxKey == "score_Cliff"){
+
+         }
+         if (maxKey == "score_Jackie"){
+
+         }
+         if (maxKey == "score_Svetlana"){
+
+         }
+         if (maxKey == "score_Rose"){
+
+         }
+         if (maxKey == "score_Sasha"){
+
+         }
+         if (maxKey == "score_Alexie"){
+
+         }
+         if (maxKey == "score_Troy"){
+
+         }
+         if (maxKey == "score_Luca"){
+
+         }
+      }
 submit_button.addEventListener("click", check_q1);
