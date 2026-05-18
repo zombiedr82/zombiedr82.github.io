@@ -29,7 +29,8 @@ var score_Alexie = 0;
 var score_Troy = 0;
 var score_Luca = 0;
 
-
+const result = document.getElementById("result");
+const results = {score_Ilya, score_Shane, score_Scott, score_Kip, score_Bood, score_Wyatt, score_Dallas, score_Harris, score_Chiron, score_Anya, score_Yuna, score_Hayden, score_JJ, score_Cliff, score_Jackie, score_Svetlana, score_Rose, score_Sasha, score_Alexie, score_Troy, score_Luca};
 
 
 function check_q1(){
@@ -57,7 +58,7 @@ function check_q1(){
       score_Cliff = score_Cliff + 1;
    }
 }
-function check_q1(){
+function check_q2(){
 
    if (q2_a1.checked == true){
       score_Ilya = score_Ilya + 1;
@@ -94,6 +95,7 @@ function check_q1(){
 	   score_Yuna = score_Yuna + 1;
 	   score_Shane = score_Shane + 1;	
    }
+   check_q2();
 }
 
 function check_q3(){
@@ -119,6 +121,7 @@ function check_q3(){
    else if (q3_a2.checked == true){
 	   score_Troy = score_Troy + 1;
    }
+   check_q3();
 }
 
 function check_q4(){
@@ -153,6 +156,7 @@ function check_q4(){
 	   score_Sasha = score_Sasha + 1;
 	   score_Dallas = score_Dallas + 1;
    }
+   check_q4();
 }
 function check_q5(){
    
@@ -182,12 +186,10 @@ function check_q5(){
    else if (q5_a2.checked == true){
 	   score_ = score_ + 1;
    }
+   check_q5();
 }
-function check_q6(){
-   
 
-}
-function check_q7(){
+function check_q6(){
    
    If (q7_a1.checked == true){
 	   score_Ilya = score_Ilya + 1;
@@ -213,8 +215,9 @@ function check_q7(){
 	   score_Kip = score_ Kip + 1;
 	   score_Scott = score_Scott + 1;
    }
+   check_q6();
 }
-function check_q8(){
+function check_q7(){
    
    If (q8_a1.checked == true){
       score_ = score_ + 1;
@@ -228,8 +231,9 @@ function check_q8(){
     else if (q8_a2.checked == true){
       score_ = score_ + 1;
    }
+   check_q7();
 }
-function check_q9(){
+function check_q8(){
    
    If (q9_a1.checked == true){
       score_ = score_ + 1;
@@ -242,8 +246,10 @@ function check_q9(){
    }
     else if (q9_a2.checked == true){
       score_ = score_ + 1;
+   }  
+   check_q8();
 }
-function check_q10(){
+function check_q9(){
    
    If (q10_a1.checked == true){
       score_ = score_ + 1;
@@ -256,81 +262,84 @@ function check_q10(){
    }
     else if (q10_a2.checked == true){
       score_ = score_ + 1;
+    }
+    check_q9();
+}
 
-      function calculate_result(){
+ function calculate_result(){
 
-         let maxKey = "";
-         let maxValue = -Infinity;
+      let maxKey = "";
+      let maxValue = -Infinity;
 
-         for (const [key, value] of Object.entries(scores)) {
-            if (value > maxValue) {
-               maxValue = value;
-               maxKey = key;
-            }
-         }
-
-         if (maxKey == "score_Ilya"){
-            
-         }
-         if (maxKey == "score_Shane"){
-
-         }
-         if (maxKey == "score_Scott"){
-
-         }
-         if (maxKey == "score_Kip"){
-
-         }
-         if (maxKey == "score_Bood"){
-
-         }
-         if (maxKey == "score_Wyatt"){
-
-         }
-         if (maxKey == "score_Dallas"){
-
-         }
-         if (maxKey == "score_Harris"){
-
-         }
-         if (maxKey == "score_Chiron"){
-
-         }
-         if (maxKey == "score_Anya"){
-
-         }
-         if (maxKey == "score_Yuna"){
-
-         }
-         if (maxKey == "score_Hayden"){
-
-         }
-         if (maxKey == "score_JJ"){
-
-         }
-         if (maxKey == "score_Cliff"){
-
-         }
-         if (maxKey == "score_Jackie"){
-
-         }
-         if (maxKey == "score_Svetlana"){
-
-         }
-         if (maxKey == "score_Rose"){
-
-         }
-         if (maxKey == "score_Sasha"){
-
-         }
-         if (maxKey == "score_Alexie"){
-
-         }
-         if (maxKey == "score_Troy"){
-
-         }
-         if (maxKey == "score_Luca"){
-
+      for (const [key, value] of Object.entries(scores)) {
+          if (value > maxValue) {
+             maxValue = value;
+            maxKey = key;
          }
       }
+
+      if (maxKey == "score_Ilya"){ 
+            a
+      }
+      if (maxKey == "score_Shane"){
+         fddsdsds
+      }
+      if (maxKey == "score_Scott"){
+         ddddd
+      }
+      if (maxKey == "score_Kip"){
+
+      }
+      if (maxKey == "score_Bood"){
+
+      }
+      if (maxKey == "score_Wyatt"){
+
+      }
+      if (maxKey == "score_Dallas"){
+
+      }
+      if (maxKey == "score_Harris"){
+
+      }
+      if (maxKey == "score_Chiron"){
+
+      }
+      if (maxKey == "score_Anya"){
+
+      }
+      if (maxKey == "score_Yuna"){
+
+      }
+      if (maxKey == "score_Hayden"){
+
+      }
+      if (maxKey == "score_JJ"){
+
+      }
+      if (maxKey == "score_Cliff"){
+
+      }
+      if (maxKey == "score_Jackie"){
+
+      }
+      if (maxKey == "score_Svetlana"){
+
+      }
+      if (maxKey == "score_Rose"){
+
+      }
+      if (maxKey == "score_Sasha"){
+
+      }
+      if (maxKey == "score_Alexie"){
+
+      }
+      if (maxKey == "score_Troy"){
+
+      }
+      if (maxKey == "score_Luca"){
+
+      }
+   }
 submit_button.addEventListener("click", check_q1);
