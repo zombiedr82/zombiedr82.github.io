@@ -1,8 +1,14 @@
 p { font-size: 20px; 
 }
-h1 {font-size: 40px;
-font-style:italic;
+h1 {
+    font-size: 40px;
+    font-style:italic;
+   margin-left: 650px;
 }
 h2 {background-color: aliceblue;
+    
 }
 body { background-color: rgb(186, 230, 230);}
+#one {
+    
+}
